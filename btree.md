@@ -11,8 +11,8 @@ Input:
 
         [1,2,3],   [1,2,3]
 
-Output: true
-Example 2:
+Output: true <br/>
+Example 2: <br/>
 Input:
 
            1         1
@@ -23,8 +23,8 @@ Input:
 
         [1,2],     [1,null,2]
 
-Output: false
-Example 3:
+Output: false <br/>
+Example 3: <br/>
 Input:
 
            1         1
