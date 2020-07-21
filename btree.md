@@ -13,6 +13,7 @@ Input:
         [1,2,3],   [1,2,3]
 
 Output: true <br/>
+
 Example 2: <br/>
 Input:
 
@@ -25,6 +26,7 @@ Input:
         [1,2],     [1,null,2]
 
 Output: false <br/>
+
 Example 3: <br/>
 Input:
 
