@@ -2,6 +2,7 @@
 Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
 Example 1:
 Input:
+
            1         1
 
           / \       / \
@@ -13,6 +14,7 @@ Input:
 Output: true
 Example 2:
 Input:
+
            1         1
 
           /           \
@@ -24,6 +26,7 @@ Input:
 Output: false
 Example 3:
 Input:
+
            1         1
 
           / \       / \
