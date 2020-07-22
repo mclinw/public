@@ -1,7 +1,7 @@
-# Same binary Tree: Given two binary trees, write a function to check if they are the same or not.
-Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+# Same binary Tree
+Given two binary trees, write a function to check if they are the same or not.  Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
 
-Example 1: <br/>
+Example 1: 
 Input:
 
            1         1
@@ -12,9 +12,9 @@ Input:
 
         [1,2,3],   [1,2,3]
 
-Output: true <br/>
+Output: true
 
-Example 2: <br/>
+Example 2: 
 Input:
 
            1         1
@@ -25,9 +25,10 @@ Input:
 
         [1,2],     [1,null,2]
 
-Output: false <br/>
+Output: false 
 
-Example 3: <br/>
+Example 3: 
+
 Input:
 
            1         1
@@ -54,8 +55,24 @@ struct TreeNode
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
-
 bool isSameTree(TreeNode *p, TreeNode *q)
 {
 }
+```
+
+```python
+# python
+# Definition for a binary tree node.
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+def isSameTree(p, q) :
+    """
+    :type p: TreeNode
+    :type q: TreeNode
+    :rtype: bool
+    """
+
 ```
